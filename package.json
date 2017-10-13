@@ -1,5 +1,5 @@
 {
-  "name": "notes",
+  "name": "note-taker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,5 +12,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edthegoodman/note-taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edthegoodman/note-taker/issues"
+  },
+  "homepage": "https://github.com/edthegoodman/note-taker#readme"
 }
