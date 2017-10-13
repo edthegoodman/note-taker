@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Comments.css';
 
 class Comments extends Component {
   
@@ -25,7 +26,6 @@ class Comments extends Component {
     }
 
     complete() {
-        alert('This task has now been completed');
         this.setState({complete: true});
     }
 
@@ -49,9 +49,10 @@ class Comments extends Component {
     );}
 
     renderComplete() {
+        var inlineStyle = {color: "#337ab7", fontSize:'16px', fontStyle: 'italic', textDecoration: 'line-through'};
         return (
           <div className="commentContainer">
-              <div className="commentText">{this.props.children}</div>
+              <div className="commentText" style={inlineStyle}>{this.props.children}</div>
           </div>
     );}
 

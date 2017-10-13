@@ -50,8 +50,10 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Let's start taking notes!</h1>
-        <input className="new-comment-input" type="text" value={this.state.newCommentValue} onChange={this.handleNewComment}/>
-        <button onClick={this.addComment.bind(null, this.state.newCommentValue)} className="button-info create">Add New Comment</button>
+          <div className="new-comment-section">
+            <input className="new-comment-input" type="text" value={this.state.newCommentValue} onChange={this.handleNewComment}/>
+            <button onClick={this.addComment.bind(null, this.state.newCommentValue)} className="button-info create">Add New Comment</button>
+          </div>
         {this.state.comments.map(this.eachComment)}
       </div>
     );

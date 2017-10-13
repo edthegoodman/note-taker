@@ -1,0 +1,15 @@
+.App {
+  margin: 40px;
+  border: 5px solid lightgrey;
+  border-radius: 16px;
+  padding: 5px 3px 5px 8px;
+}
+
+.DottedBox_content {
+  font-size: 15px;
+  text-align: center;
+}
+
+.new-comment-section {
+	padding: 5px 3px 5px 8px;
+}
